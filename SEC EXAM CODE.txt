@@ -1,0 +1,61 @@
+﻿\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{array}
+
+
+\begin{document}
+
+
+% Start with name and contact information
+\begin{center}
+    {\LARGE Aishi Barik } \\
+    Vill - Madhabpur, P.O.+ P S. - Diamond Harbour, South 24 pgs - 743331 \\
+    Phone: +91 74781 96237 \\
+    Email: barikpradip718@gmail.com \\
+\end{center}
+
+
+% Include photo in the top-right corner
+\begin{flushright}
+    \includegraphics[width=3cm]{30059223008_forensic_aishi.jpeg} % Replace with your photo file path
+\end{flushright}
+
+
+% Education (in table form)
+\section*{Degrees, Institutions, and Dates}
+\begin{tabular}{| m{5cm} | m{5cm} | m{3cm} |}
+    \hline
+    \textbf{Degree} & \textbf{Institution} & \textbf{Year} \\ \hline
+    B.Sc. in Forensic Science & Maulana Abul Kalam Azad University of Technology & 2027 \\ \hline
+    Class 12 & Delhi Public School, Joka (South Kolkata) & 2023 \\ \hline
+    Class 10 & K.E. Carmel School, Amtala & 2021 \\ \hline
+\end{tabular}
+
+
+% Awards and Achievements
+\section*{Awards and Achievements}
+\begin{itemize}
+    \item Spell Bee award  - ranked 3rd position in inter school Spell Bee competition in West Bengal
+    \item poetry publication achievement - Poem got published in school magazine 
+\end{itemize}
+
+
+% Skills section
+\section*{Languages, Computer, and Other Skills}
+\begin{itemize}
+    \item Languages: English (Fluent), Hindi (Fluent), Bengali (Native), Odia (Basic)
+    \item Computer Skills: LaTeX, Microsoft Office, Java
+    \item Other: Communication, Teamwork, Leadership, Presentation
+\end{itemize}
+
+
+% Activities and Interests (optional)
+\section*{Activities and Interests}
+\begin{itemize}
+    \item Reading
+    \item Painting
+\end{itemize}
+
+
+\end{document}
